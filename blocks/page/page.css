@@ -3,8 +3,5 @@
     background: #2A2C2F;
     margin: auto;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-
+    overflow:hidden;
 }
-  
-   /* display: grid;
-    justify-items: center;*/

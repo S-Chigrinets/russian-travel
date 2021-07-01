@@ -1,21 +1,36 @@
 .lead__title{
 
     font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-/* or 104% */
-
-text-align: center;
-
-color: #FFFFFF;
-
-    grid-row: 1;
-    box-sizing: content-box;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
     text-align: center;
-    color:white;
-
+    color: #FFFFFF;
     max-width: min-content;
-    margin:0 auto;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .lead__title{
+        padding-top: 48px;
+    }
+} 
+
+@media screen and (min-width:321px) and (max-width: 767px){
+    .lead__title{
+        font-weight: 900;
+        padding-top:15%;
+        font-size: 12.5vw;
+        line-height: 13.5vw;
+    }
+}
+
+@media screen and (max-width:320px){     
+   .lead__title{ 
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    padding-top: 50px;
+   }
 }
