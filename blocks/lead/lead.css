@@ -1,6 +1,5 @@
 .lead{
     max-width: 984px;
-    max-height: max-content;
     background-color: #2A2C2F;
     display: flex;
     flex-direction: column;
