@@ -1,6 +1,6 @@
-.place__website{
+.place__website {
     max-width: 456px;
-    height: 46px;
+    min-height: 46px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,15 +9,14 @@
     gap: 6px;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
-    .place__website{
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__website {
         max-width: 352px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .place__website{
+    .place__website {
         padding-left: 16px;
     }
-    
 }

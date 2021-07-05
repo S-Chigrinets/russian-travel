@@ -1,4 +1,4 @@
-.footer{
+.footer {
     max-width: 1184px;
     padding-top: 92px;
     padding-bottom: 24px;
@@ -6,20 +6,19 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    color:#ffffff;
-    margin:0 auto;
+    color: #ffffff;
+    margin: 0 auto;
     padding: 92px 48px 24px;
-
 }
 
-@media screen and (min-width:321px) and (max-width:768px){
-    .footer{
+@media screen and (min-width:321px) and (max-width:768px) {
+    .footer {
         padding: 88px 24px 24px;
-    }    
+    }
 }
 
-@media screen and (max-width:320px){
-    .footer{
+@media screen and (max-width:320px) {
+    .footer {
         padding: 64px 16px 0;
-    }   
+    }
 }

@@ -1,18 +1,18 @@
-.place__paragraphs{
+.place__paragraphs {
     display: flex;
     flex-direction: column;
     gap: 26px;
     max-width: 484px;
-    
 }
-@media screen and (min-width:768px) and (max-width: 1024px){
-    .place__paragraphs{
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .place__paragraphs {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .place__paragraphs{
+    .place__paragraphs {
         max-width: 288px;
         gap: 30px;
         justify-self: center;

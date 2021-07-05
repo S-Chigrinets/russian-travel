@@ -1,5 +1,4 @@
-.place__link{
- 
+.place__link {
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
@@ -7,6 +6,6 @@
     margin: 0;
 }
 
-.place__link:hover{
+.place__link:hover {
     opacity: .8;
 }

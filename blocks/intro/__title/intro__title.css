@@ -1,5 +1,5 @@
-.intro__title{
-    font-family: Inter;
+.intro__title {
+    font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -9,26 +9,24 @@
     padding-top: 93px;
 }
 
-@media screen and (min-width:321px) and (max-width:768px){
-    .intro__title{
+@media screen and (min-width:321px) and (max-width:768px) {
+    .intro__title {
         padding-top: 89px;
     }
-} 
-  
-@media screen and (min-width:321px) and (max-width:767px){
-        .intro__title{
-            font-size:10vw;
-            line-height: 10.5vw;
-            padding-top: 17%;
-        }    
 }
 
-@media screen and (max-width:320px){
-    .intro__title{
-        font-weight: 900;
+@media screen and (min-width:321px) and (max-width:767px) {
+    .intro__title {
+        font-size: 10vw;
+        line-height: 10.5vw;
+        padding-top: 17%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .intro__title {
         font-size: 32px;
         line-height: 35px;
         padding-top: 64px;
     }
-    
 }
